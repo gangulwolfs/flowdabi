@@ -9,7 +9,7 @@
 <br>
 
 ![Go Version](https://img.shields.io/badge/Go-1.22%2B-00ADD8?style=flat-square&logo=go)
-![Minecraft Version](https://img.shields.io/badge/Minecraft-Folia_1.21.x-2A9D8F?style=flat-square&logo=minecraft)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.26.1.2-2A9D8F?style=flat-square&logo=minecraft)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
 **FlowDabi**는 Go 언어(Golang)의 압도적인 성능과 고루틴(Goroutine)의 강력한 동시성 제어를 마인크래프트 서버 개발에 접목하기 위한 혁신적인 차세대 플러그인 프레임워크입니다.
