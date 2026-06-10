@@ -4,7 +4,7 @@
 <div align="center">
 
 <!-- 프로젝트 로고 (watermarked_img_8395321047336827321.png) -->
-<img src="flowdabi.png" alt="FlowDabi Logo" width="1550"/>
+<img src="flowdabis.png" alt="FlowDabi Logo" width="1550"/>
 
 <br>
 
