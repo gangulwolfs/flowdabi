@@ -6,6 +6,13 @@
 
 ---
 
+### 🚀 Go-powered Minecraft 
+
+![Go Version](https://img.shields.io/badge/Go-1.22%2B-00ADD8?style=flat-square&logo=go)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
+
+---
+
 ## 🚀 Key Features
 
 * **High Performance**: JVM의 가비지 컬렉션(GC) 스트레스로부터 자유로우며, 고루틴을 활용해 대규모 비동기 연산을 가볍게 처리합니다.
