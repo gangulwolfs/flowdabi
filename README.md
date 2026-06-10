@@ -1,10 +1,12 @@
 # # flowdabi
 
-**flowdabi**는 Go 언어(Golang)의 압도적인 성능과 고루틴(Goroutine)의 강력한 동시성 제어를 마인크래프트 서버 개발에 접목하기 위한 혁신적인 차세대 플러그인 프레임워크입니다.
+**flowdabi**는 Go 언어(Golang)의 압도적인 성능을 위한 마인크래프트 서버 버킷 개발. 물론, 플러그인 리로드가 목적.
 
 [특징](https://www.google.com/search?q=%23-key-features) • [시작하기](https://www.google.com/search?q=%23-getting-started) • [예제 코드](https://www.google.com/search?q=%23-quick-start) • [기여하기](https://www.google.com/search?q=%23-contributing)
 
----
+<div align="center">
+
+<img src="flowdabi.png" alt="FlowDabi Logo" width="500"/>
 
 ### 🚀 Go-powered Minecraft 
 
