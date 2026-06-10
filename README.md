@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="flowdabi.png" alt="FlowDabi Logo" width="500"/>
+<img src="flowdabi.png" alt="FlowDabi Logo" width="1500"/>
 
 ### 🚀 Go-powered Minecraft 
 
