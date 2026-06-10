@@ -1,17 +1,23 @@
-# # flowdabi
 
-**flowdabi**는 Go 언어(Golang)의 압도적인 성능을 위한 마인크래프트 서버 버킷 개발. 물론, 플러그인 리로드가 목적.
-
-[특징](https://www.google.com/search?q=%23-key-features) • [시작하기](https://www.google.com/search?q=%23-getting-started) • [예제 코드](https://www.google.com/search?q=%23-quick-start) • [기여하기](https://www.google.com/search?q=%23-contributing)
+```markdown
+# # FlowDabi
 
 <div align="center">
 
-<img src="flowdabi.png" alt="FlowDabi Logo" width="1500"/>
+<!-- 프로젝트 로고 (watermarked_img_8395321047336827321.png) -->
+<img src="assets/logo.png" alt="FlowDabi Logo" width="1550"/>
 
-### 🚀 Go-powered Minecraft 
+<br>
 
 ![Go Version](https://img.shields.io/badge/Go-1.22%2B-00ADD8?style=flat-square&logo=go)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-Folia_1.21.x-2A9D8F?style=flat-square&logo=minecraft)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
+
+**FlowDabi**는 Go 언어(Golang)의 압도적인 성능과 고루틴(Goroutine)의 강력한 동시성 제어를 마인크래프트 서버 개발에 접목하기 위한 혁신적인 차세대 플러그인 프레임워크입니다.
+
+[특징](#-key-features) • [시작하기](#-getting-started) • [예제 코드](#-quick-start) • [로드맵](#-roadmap)
+
+</div>
 
 ---
 
@@ -27,14 +33,12 @@
 ## 🛠 Getting Started
 
 ### Prerequisites
-
 * **Go**: `1.22` 이상
 * **마인크래프트 서버 환경**: Folia (1.21.x 권장)
 
 ### Installation
-
 ```bash
-go get github.com/yourusername/flowdabi
+go get [github.com/yourusername/flowdabi](https://github.com/yourusername/flowdabi)
 
 ```
 
@@ -42,26 +46,26 @@ go get github.com/yourusername/flowdabi
 
 ## 💻 Quick Start
 
-`flowdabi`를 사용해 서버에 플레이어가 접속할 때 환영 메시지를 보내고, `/heal` 명령어를 처리하는 간단한 예제입니다.
+`FlowDabi`를 사용해 서버에 플레이어가 접속할 때 환영 메시지를 보내고, `/heal` 명령어를 처리하는 간단한 예제입니다.
 
 ```go
 package main
 
 import (
 	"fmt"
-	"github.com/yourusername/flowdabi/bukkit"
-	"github.com/yourusername/flowdabi/event"
+	"[github.com/yourusername/flowdabi/bukkit](https://github.com/yourusername/flowdabi/bukkit)"
+	"[github.com/yourusername/flowdabi/event](https://github.com/yourusername/flowdabi/event)"
 )
 
 func main() {
 	// 플러그인 로드 시 초기화
 	bukkit.OnEnable(func() {
-		fmt.Println("[flowdabi] 플러그인이 성공적으로 활성화되었습니다!")
+		fmt.Println("[FlowDabi] 플러그인이 성공적으로 활성화되었습니다!")
 
 		// 1. 이벤트 리스너 등록 (플레이어 접속)
 		bukkit.RegisterEvent(event.PlayerJoin, func(e *event.PlayerJoinEvent) {
 			player := e.GetPlayer()
-			player.SendMessage("§aflowdabi 서버에 오신 것을 환영합니다! 🚀")
+			player.SendMessage("§aFlowDabi 서버에 오신 것을 환영합니다! 🚀")
 		})
 
 		// 2. 커맨드 등록 (/heal)
@@ -80,7 +84,7 @@ func main() {
 	})
 
 	bukkit.OnDisable(func() {
-		fmt.Println("[flowdabi] 플러그인이 비활성화되었습니다.")
+		fmt.Println("[FlowDabi] 플러그인이 비활성화되었습니다.")
 	})
 }
 
@@ -102,7 +106,7 @@ func main() {
 ```
 MIT License
 
-Copyright (c) 2026 flowdabi
+Copyright (c) 2026 FlowDabi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -114,6 +118,6 @@ furnished to do so, subject to the following conditions:
 
 ```
 
----
+```
 
-**flowdabi** 프로젝트는 마인크래프트 서버 개발 생태계에 새로운 흐름을 만들고자 합니다. 여러분의 스타(⭐)와 Pull Request는 프로젝트 성장에 큰 힘이 됩니다!
+```
